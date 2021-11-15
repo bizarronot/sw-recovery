@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   height: 100%;
-  background: #ffbb00;
+  background: linear-gradient(90deg, rgba(20,23,38,0.9) 0%, rgba(25,30,47,0.9) 100%);
 }
 
 #app {
@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000;
+  color: white;
   min-height: 100%;
 }
 
@@ -37,7 +37,7 @@ header p {
   margin: 1rem 0 0;
 }
 a {
-  color: black;
+  color: white;
 }
 
 h1 {
@@ -109,8 +109,8 @@ div.container {
   }
 }
 .flex .progress.dark {
-  background: black;
-  color: #ffbb00;
+  background: white;
+  color: white;
   padding: 0.5rem;
 }
 @media (min-width: 780px) {
@@ -154,10 +154,10 @@ svg circle {
 }
 svg circle.prog {
   will-change: auto;
-  stroke: #000;
+  stroke: white;
 }
 svg circle.bg {
-  stroke: rgba(0, 0, 0, 0.1);
+  stroke: #00FFA3;
 }
 
 .progress {
